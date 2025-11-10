@@ -1,0 +1,21 @@
+{
+  "name": "webm-converter",
+  "version": "1.0.0",
+  "description": "Browser-based WebM video conversion tool built with React",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check-env": "node scripts/check-env.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  }
+}
+
